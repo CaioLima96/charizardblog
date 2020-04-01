@@ -1,0 +1,171 @@
+/*index*/
+
+* {
+   text-decoration: none;
+   list-style-type: none;
+ 
+}
+
+body {
+  background-color: #FEECB0;
+  font-family: 'Roboto';
+  margin: 0 auto;
+  padding: 0 auto;
+  
+}
+
+.header  {
+  background-color: #F9A86A;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.titulo-cha {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: -4%;
+ 
+}
+
+.nav-bar {
+  background-color: #409DAD;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  margin-bottom: 30px;
+ 
+}
+
+.nav-list {
+  padding: 0;
+  display: inline-flex;
+  margin-left: 1%;
+}
+
+nav a {
+  margin-right: 40px;
+ 
+}
+
+.nav-list a:hover {
+  color: yellow;
+  border-bottom: 1px solid silver;
+}
+
+
+/*body*/
+
+.card {
+
+    width: 80%;
+    max-width: 960px;
+    height: auto;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: space-around;
+    border: #F9A86A solid;
+  
+}
+
+/* relevant styles */
+.charizard{
+  position: relative;
+  height: 300px;
+  width: 257px;
+}
+
+.cha__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.charizard:hover .cha__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.text-img {
+  max-width: 50%;
+}
+
+p {
+  padding-top: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+img {
+
+  height: 300px;
+}
+
+.text-img h2 {
+ text-align: center;
+}
+
+
+/*footer*/
+
+footer {
+  background-color: #409DAD;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  right: 0;bottom:0;left:0;
+  display: flex;
+  justify-content: center;
+}
+
+footer h4 {
+  margin-top: 1%;
+  margin-right: 5%;
+}
+
+.flex-item-1 {
+  flex: 2;
+  margin-right: 16%;
+}
+
+.social {
+  margin-top: 1%;
+  justify-content: center;
+  width: 5%;
+  
+}
+
+footer a:hover {
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+footer a {
+  color: black;
+}
+
+.social {
+  display: inline-flex;
+}
+
